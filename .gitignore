@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+src/data_*.npz
+src/topo_*.npz
+src/*.pkl
+src/log*.txt
+src/*.png
+src/*.tiff

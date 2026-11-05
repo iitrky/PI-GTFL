@@ -1,0 +1,683 @@
+{
+ "per_topology": {
+  "Baran-Wu (unseen)": {
+   "all": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.7455,
+     "mae_km": 0.5776227559011725,
+     "within05": 0.5974999999999999,
+     "std_sec_acc": 0.0005000000000000004,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.729,
+     "mae_km": 0.6230928750125909,
+     "within05": 0.58,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.5,
+     "mae_km": 1.736618986334358,
+     "within05": 0.362,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.557,
+     "mae_km": 1.4206745752277445,
+     "within05": 0.40049999999999997,
+     "std_sec_acc": 0.0010000000000000009,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.481,
+     "mae_km": 1.730934327627115,
+     "within05": 0.309,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.115,
+     "mae_km": 6.945056521401692,
+     "within05": 0.071
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.108,
+     "mae_km": 7.542537305618024,
+     "within05": 0.111
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.15,
+     "mae_km": 8.32549627800586,
+     "within05": 0.105
+    },
+    "impedance (oracle)": {
+     "sec_acc": 0.587,
+     "mae_km": 1.5807474179601944,
+     "within05": 0.468
+    },
+    "recon_pigtfl": {
+     "rel_err_unmeasured": 0.1962310563639272,
+     "kcl_resid_est": 0.00862815696746111,
+     "kcl_resid_true": 5.51056343087953e-05
+    }
+   },
+   "drop3": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.6085,
+     "mae_km": 1.2155277358340217,
+     "within05": 0.475,
+     "std_sec_acc": 0.015500000000000014,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.611,
+     "mae_km": 1.1956949673811046,
+     "within05": 0.45,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.415,
+     "mae_km": 2.465893698240792,
+     "within05": 0.281,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.436,
+     "mae_km": 2.201047802371699,
+     "within05": 0.3055,
+     "std_sec_acc": 0.0050000000000000044,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.327,
+     "mae_km": 3.2276417658573435,
+     "within05": 0.232,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.115,
+     "mae_km": 7.833310106559409,
+     "within05": 0.085
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.102,
+     "mae_km": 8.50479153891751,
+     "within05": 0.105
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.089,
+     "mae_km": 12.933206550263945,
+     "within05": 0.074
+    }
+   }
+  },
+  "Random A (unseen)": {
+   "all": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.6984999999999999,
+     "mae_km": 0.8591846722984529,
+     "within05": 0.5455000000000001,
+     "std_sec_acc": 0.01050000000000001,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.664,
+     "mae_km": 0.9751483614118766,
+     "within05": 0.505,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.508,
+     "mae_km": 1.4972836511843235,
+     "within05": 0.36,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.5485,
+     "mae_km": 1.266647683012835,
+     "within05": 0.401,
+     "std_sec_acc": 0.019499999999999962,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.382,
+     "mae_km": 2.4483099201273406,
+     "within05": 0.286,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.103,
+     "mae_km": 14.181505313366513,
+     "within05": 0.079
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.036,
+     "mae_km": 16.392196129159334,
+     "within05": 0.024
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.09,
+     "mae_km": 11.753905684037697,
+     "within05": 0.059
+    },
+    "impedance (oracle)": {
+     "sec_acc": 0.37,
+     "mae_km": 3.7522452998894975,
+     "within05": 0.282
+    },
+    "recon_pigtfl": {
+     "rel_err_unmeasured": 0.1680444830344751,
+     "kcl_resid_est": 0.00845979806035757,
+     "kcl_resid_true": 4.451141219486327e-05
+    }
+   },
+   "drop3": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.596,
+     "mae_km": 1.2578989681074446,
+     "within05": 0.4645,
+     "std_sec_acc": 0.018000000000000016,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.562,
+     "mae_km": 1.286626765236202,
+     "within05": 0.432,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.409,
+     "mae_km": 2.1236187910573454,
+     "within05": 0.303,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.4505,
+     "mae_km": 1.9454044573038258,
+     "within05": 0.3215,
+     "std_sec_acc": 0.023499999999999993,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.27,
+     "mae_km": 4.055563054240601,
+     "within05": 0.21,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.07,
+     "mae_km": 18.158709973063203,
+     "within05": 0.053
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.04,
+     "mae_km": 16.35191689772648,
+     "within05": 0.016
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.055,
+     "mae_km": 13.676466462835823,
+     "within05": 0.04
+    }
+   }
+  },
+  "Random B (unseen)": {
+   "all": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.7175,
+     "mae_km": 0.7155727198111141,
+     "within05": 0.605,
+     "std_sec_acc": 0.013500000000000012,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.723,
+     "mae_km": 0.6988665003019614,
+     "within05": 0.631,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.547,
+     "mae_km": 1.2857910809173254,
+     "within05": 0.419,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.587,
+     "mae_km": 1.0598423241109387,
+     "within05": 0.475,
+     "std_sec_acc": 0.0050000000000000044,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.376,
+     "mae_km": 2.8429183888362735,
+     "within05": 0.312,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.038,
+     "mae_km": 25.778642746047478,
+     "within05": 0.014
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.025,
+     "mae_km": 18.44865009236576,
+     "within05": 0.012
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.059,
+     "mae_km": 16.413525113688177,
+     "within05": 0.042
+    },
+    "impedance (oracle)": {
+     "sec_acc": 0.482,
+     "mae_km": 2.2784558933230823,
+     "within05": 0.362
+    },
+    "recon_pigtfl": {
+     "rel_err_unmeasured": 0.13337445562275893,
+     "kcl_resid_est": 0.008722376078367233,
+     "kcl_resid_true": 4.3435678862738166e-05
+    }
+   },
+   "drop3": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.6205,
+     "mae_km": 1.0529401897394135,
+     "within05": 0.506,
+     "std_sec_acc": 0.0015000000000000013,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.617,
+     "mae_km": 1.1186235048981654,
+     "within05": 0.516,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.425,
+     "mae_km": 1.992073083764292,
+     "within05": 0.329,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.471,
+     "mae_km": 1.6839852748065531,
+     "within05": 0.3755,
+     "std_sec_acc": 0.016999999999999987,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.284,
+     "mae_km": 4.206532122758573,
+     "within05": 0.225,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.037,
+     "mae_km": 26.208766490843,
+     "within05": 0.016
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.019,
+     "mae_km": 19.55076300676348,
+     "within05": 0.009
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.04,
+     "mae_km": 19.291654164070685,
+     "within05": 0.026
+    }
+   }
+  },
+  "Random C (unseen)": {
+   "all": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.6125,
+     "mae_km": 0.9242312888620172,
+     "within05": 0.476,
+     "std_sec_acc": 0.01150000000000001,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.649,
+     "mae_km": 0.8838766583876265,
+     "within05": 0.501,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.367,
+     "mae_km": 2.142947055531116,
+     "within05": 0.287,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.4135,
+     "mae_km": 1.9546067110259933,
+     "within05": 0.322,
+     "std_sec_acc": 0.0015000000000000013,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.321,
+     "mae_km": 2.1971946287666944,
+     "within05": 0.249,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.166,
+     "mae_km": 8.411012391366725,
+     "within05": 0.151
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.105,
+     "mae_km": 9.488677795973596,
+     "within05": 0.11
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.193,
+     "mae_km": 4.748243913475404,
+     "within05": 0.136
+    },
+    "impedance (oracle)": {
+     "sec_acc": 0.532,
+     "mae_km": 1.69043393971638,
+     "within05": 0.432
+    },
+    "recon_pigtfl": {
+     "rel_err_unmeasured": 0.1469697771382666,
+     "kcl_resid_est": 0.008074000477790833,
+     "kcl_resid_true": 4.9111395829085944e-05
+    }
+   },
+   "drop3": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.5575,
+     "mae_km": 1.2219065211723128,
+     "within05": 0.425,
+     "std_sec_acc": 0.012499999999999956,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.559,
+     "mae_km": 1.1781965605953182,
+     "within05": 0.413,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.306,
+     "mae_km": 2.6611639174079103,
+     "within05": 0.233,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.33599999999999997,
+     "mae_km": 2.47937220610208,
+     "within05": 0.257,
+     "std_sec_acc": 0.022999999999999993,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.248,
+     "mae_km": 3.1735703787531437,
+     "within05": 0.209,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.137,
+     "mae_km": 8.620246735311751,
+     "within05": 0.12
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.092,
+     "mae_km": 9.952676359888075,
+     "within05": 0.1
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.121,
+     "mae_km": 9.334651437207132,
+     "within05": 0.107
+    }
+   }
+  },
+  "base (seen)": {
+   "all": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.7958000000000001,
+     "mae_km": 0.42613402024006075,
+     "within05": 0.6924,
+     "std_sec_acc": 0.011999999999999955,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.824,
+     "mae_km": 0.36342458172840447,
+     "within05": 0.749,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.676,
+     "mae_km": 0.6943531626713957,
+     "within05": 0.5412,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.6808,
+     "mae_km": 0.692759213430308,
+     "within05": 0.5481,
+     "std_sec_acc": 0.01200000000000001,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.5294,
+     "mae_km": 1.0838261401975628,
+     "within05": 0.4178,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.9148,
+     "mae_km": 0.20271896603142583,
+     "within05": 0.909
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.9192,
+     "mae_km": 0.19311662980431785,
+     "within05": 0.9176
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.7696,
+     "mae_km": 0.5074687620302571,
+     "within05": 0.646
+    },
+    "impedance (oracle)": {
+     "sec_acc": 0.6004,
+     "mae_km": 1.1084200149928636,
+     "within05": 0.5238
+    },
+    "recon_pigtfl": {
+     "rel_err_unmeasured": 0.1555370653895677,
+     "kcl_resid_est": 0.00846939068287611,
+     "kcl_resid_true": 5.4101517099969244e-05
+    }
+   },
+   "drop3": {
+    "pigtfl (multi-topo)": {
+     "sec_acc": 0.6672,
+     "mae_km": 0.9245549458099229,
+     "within05": 0.5657000000000001,
+     "std_sec_acc": 0.009800000000000031,
+     "n_seeds": 2
+    },
+    "gt_nophys (multi-topo)": {
+     "sec_acc": 0.6844,
+     "mae_km": 0.810214230627901,
+     "within05": 0.587,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_nobias (multi-topo)": {
+     "sec_acc": 0.5038,
+     "mae_km": 1.640509004148707,
+     "within05": 0.3984,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "gt_vanilla (multi-topo)": {
+     "sec_acc": 0.5404,
+     "mae_km": 1.4115348398885503,
+     "within05": 0.4256,
+     "std_sec_acc": 0.01100000000000001,
+     "n_seeds": 2
+    },
+    "gcn (multi-topo)": {
+     "sec_acc": 0.333,
+     "mae_km": 3.506190956850069,
+     "within05": 0.2756,
+     "std_sec_acc": 0.0,
+     "n_seeds": 1
+    },
+    "pigtfl (base only)": {
+     "sec_acc": 0.8076,
+     "mae_km": 0.5058049927210112,
+     "within05": 0.7712
+    },
+    "gt_vanilla (base only)": {
+     "sec_acc": 0.8198,
+     "mae_km": 0.46657696416879746,
+     "within05": 0.7822
+    },
+    "gcn (base only)": {
+     "sec_acc": 0.5278,
+     "mae_km": 2.1163387530214024,
+     "within05": 0.4414
+    }
+   }
+  }
+ },
+ "n_ties_closed": {
+  "base (seen)": 0,
+  "Baran-Wu (unseen)": 4,
+  "Random A (unseen)": 4,
+  "Random B (unseen)": 4,
+  "Random C (unseen)": 4
+ },
+ "unseen_mean": {
+  "all": {
+   "pigtfl (multi-topo)": {
+    "sec_acc": 0.6935,
+    "mae_km": 0.7691528592181892,
+    "within05": 0.556
+   },
+   "gt_nophys (multi-topo)": {
+    "sec_acc": 0.69125,
+    "mae_km": 0.7952460987785138,
+    "within05": 0.55425
+   },
+   "gt_nobias (multi-topo)": {
+    "sec_acc": 0.48050000000000004,
+    "mae_km": 1.6656601934917807,
+    "within05": 0.357
+   },
+   "gt_vanilla (multi-topo)": {
+    "sec_acc": 0.5265,
+    "mae_km": 1.4254428233443779,
+    "within05": 0.399625
+   },
+   "gcn (multi-topo)": {
+    "sec_acc": 0.38999999999999996,
+    "mae_km": 2.304839316339356,
+    "within05": 0.28900000000000003
+   },
+   "pigtfl (base only)": {
+    "sec_acc": 0.10550000000000001,
+    "mae_km": 13.8290542430456,
+    "within05": 0.07875
+   },
+   "gt_vanilla (base only)": {
+    "sec_acc": 0.06849999999999999,
+    "mae_km": 12.968015330779178,
+    "within05": 0.06425
+   },
+   "gcn (base only)": {
+    "sec_acc": 0.123,
+    "mae_km": 10.310292747301784,
+    "within05": 0.08549999999999999
+   },
+   "impedance (oracle)": {
+    "sec_acc": 0.49275,
+    "mae_km": 2.3254706377222885,
+    "within05": 0.386
+   }
+  },
+  "drop3": {
+   "pigtfl (multi-topo)": {
+    "sec_acc": 0.595625,
+    "mae_km": 1.1870683537132982,
+    "within05": 0.467625
+   },
+   "gt_nophys (multi-topo)": {
+    "sec_acc": 0.58725,
+    "mae_km": 1.1947854495276975,
+    "within05": 0.45275000000000004
+   },
+   "gt_nobias (multi-topo)": {
+    "sec_acc": 0.38875,
+    "mae_km": 2.310687372617585,
+    "within05": 0.28650000000000003
+   },
+   "gt_vanilla (multi-topo)": {
+    "sec_acc": 0.42337499999999995,
+    "mae_km": 2.0774524351460393,
+    "within05": 0.314875
+   },
+   "gcn (multi-topo)": {
+    "sec_acc": 0.28225,
+    "mae_km": 3.6658268304024153,
+    "within05": 0.219
+   },
+   "pigtfl (base only)": {
+    "sec_acc": 0.08975,
+    "mae_km": 15.20525832644434,
+    "within05": 0.0685
+   },
+   "gt_vanilla (base only)": {
+    "sec_acc": 0.06325,
+    "mae_km": 13.590036950823887,
+    "within05": 0.0575
+   },
+   "gcn (base only)": {
+    "sec_acc": 0.07625,
+    "mae_km": 13.808994653594397,
+    "within05": 0.06175
+   }
+  }
+ },
+ "recon_unseen_mean": 0.16115494303985695
+}

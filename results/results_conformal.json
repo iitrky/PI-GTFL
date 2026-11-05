@@ -1,0 +1,44 @@
+{
+ "all": {
+  "auroc_pmax": 0.9012406313702064,
+  "a5": {
+   "qhat": 0.6728372573852539,
+   "coverage": 0.9494,
+   "mean_set": 1.094,
+   "single_share": 0.906,
+   "single_acc": 0.9463576158940398,
+   "mean_patrol_km": 2.0189002026054554
+  },
+  "a2": {
+   "qhat": 0.867874801158905,
+   "coverage": 0.9846,
+   "mean_set": 1.2838,
+   "single_share": 0.7306,
+   "single_acc": 0.9852176293457432,
+   "mean_patrol_km": 2.3190210272691467
+  },
+  "top1_acc": 0.9148,
+  "top1_patrol_km": 1.8687812443586365
+ },
+ "drop3": {
+  "auroc_pmax": 0.8746968765542317,
+  "a5": {
+   "qhat": 0.8625469207763672,
+   "coverage": 0.955,
+   "mean_set": 1.5582,
+   "single_share": 0.5616,
+   "single_acc": 0.9654558404558404,
+   "mean_patrol_km": 2.9412449266101883
+  },
+  "a2": {
+   "qhat": 0.914099395275116,
+   "coverage": 0.9762,
+   "mean_set": 1.7692,
+   "single_share": 0.4902,
+   "single_acc": 0.9844961240310077,
+   "mean_patrol_km": 3.342357643588481
+  },
+  "top1_acc": 0.8076,
+  "top1_patrol_km": 1.8919468700848214
+ }
+}
